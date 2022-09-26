@@ -1,0 +1,30 @@
+(Customer feedback excess of information)
+
+NLP + Machine Learning 
+
+Extracion summarization (reduce text bodies - retain original meaning) 
+(Subdomain of NLP)
+* NLP based 
+* Deep learning-based techniques
+
+
+Text summarization is beneficial for several NLP tasks, including text classification, 
+legal text summaries, news summaries, generating headlines
+
+https://www.projectpro.io/article/text-summarization-python-nlp/546
+
+
+Stora svårigheter: 
+* Coherence --> Innehållet bildar en sammanhängande enhet 
+* Cohesion --> Explicita kopplingar mellan olika led 
+--> Sambandsled (anaforiska led 
+syftar tillbaka på något givet eller känt) 
+--> Satskonnektiver (icke/och/eller/om/så/om och endast om)
+
+
+Referentbestämmning: 
+Bestämma vad/vem ett givet uttryck relaterar till 
+Koreferens:
+Två eller fler refererande uttryck relatera till samma referent
+
+SUC-CORE? Referentbestämning på svenska

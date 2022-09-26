@@ -1,0 +1,89 @@
+Frågor till gruppen: 
+* Svenska! 
+* korpus --> Fråga i forum! 
+
+* Vilken typ av utvärdering? --> Läs kapitel 
+
+* Planering
+
+
+**********************************************************
+# Idéer:
+* kunna curla in en HTML-sida 
+* Preprocessa 
+* Sortera och utföra 
+* Avg lexikal connectivity 
+* beräkna idf-score mellan paragrafer / stycken 
+
+Flöde? Semantisk parsning --> Formell översättning --> Conditionals för vad som ska förmedlas baserat på formell struktur --> Textgenerering (nya syntaktiska strukturer/nya lexikala val)
+
+* Hitta centrala delar i texten som behandlar ämnet
+Metoder för ranking: 
+* lingvistiska
+* statistiska
+* heuristiska  
+
+* Extrahera högst rankade delar
+* Konkatenera extraherade delar i lämplig disposition för presentation
+
+Att lista fragment av texter 
+
+* Chunka i meningar --> Ranka dessa efter hur centrala meningarna är för textens huvudtema 
+* Interconnectivity --> Meningar som innehåller ord som förekommer i många andra meningar
+
+Rankningsmått: 
+
+Position: 
+* Baseline - meningsplacering indikerar värde (först högst/sist lägst)
+* Första meningen i stycke - prio 1
+* Genreposition - vissa genrer specifika platser viktig info (nyhet inledande, vetenskaplig början och slut) 
+
+
+* Headings/rubriker - meningar med ord i som även finns i rubriker rankas högt
+* Tf - innehållsord (öppna ordklasser) med högre frekvens - viktigare än mindre frekventa
+
+* Avg lexikal connectivity - n innehålsord som delas med andra meningar (hypotes - meningar som delar ord med många andra meningar är centrala meningar) 
+* Query signature - information need expressed as query (words in query viktas upp i texten) 
+* Meningslängd - size matters
+* Triggerord - predefined list of domain specific words (containing sentences weighted up)
+* Numerical data - sentences with values, dates, intervall weighted up
+* Weekdays/months - sentences with timestamps are central
+
+* NER - sentences containing entities -> weighted upp
+* PP & JJ - PP connect senteces/ JJ describes
+
+HTML-format på input: 
+HTML-taggar för
+–  Fetstil
+–  Nytt stycke
+–  Styckerubriker –  Dokumentrubrik
+
+Domänord: 
+Genom korpus uttnyttja kunskap om ordens distribution 
+
+* TF / IDF / TF*IDF 
+
+Random Indexing: 
+* Binära vektorer i Sliding Window? 
+
+
+Enkelkombinationsfunktion: 
+vikt(S)=α.rubrik(S)+β.frekvens(S)+γ.triggerord(S)+δ.position(S)
+–  Parametrarna optimeras med träningsdata eller experimentellt
+
+
+
+
+***********************************************************************************************
+
+Extract = 2.76 * abstract ==> Automatisk textsammanfattning medför redundans 
+
+Random Indexing: 
+* Borde vara ett sätt att undvika redundans vid extraherande textsammanfattning? 
+
+***********************************************************************************************
+
+Corpus suggestions: 
+* Wikipedia articles 
+* Twitter 
+* News articles 

@@ -1,0 +1,10 @@
+* Var hittar vi det korpuset som har text plus sammanfattnigar? Svenska eller engelska? 
+
+
+Plan: 
+1. Fungerade algoritm för korpuset 
+2. URL request + ML med vikter 
+
+
+
+
