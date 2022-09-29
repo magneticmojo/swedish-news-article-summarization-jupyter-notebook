@@ -4,8 +4,8 @@
 Plan: 
 1. Fungerade algoritm för korpuset 
 2. URL request + ML med vikter 
-3. Kan man kolla på gammalt projekt?
-4. Ska man boka tid för projektpresentation?
+3. Kan man kolla på gammalt projekt?-> Borde gå
+4. Ska man boka tid för projektpresentation? -> JA
 
 
 
