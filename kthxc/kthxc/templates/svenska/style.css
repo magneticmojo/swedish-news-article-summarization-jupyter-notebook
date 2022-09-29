@@ -1,0 +1,102 @@
+body {
+  background-color: white;
+}
+
+p {
+  line-height: 14px;
+  font-family: Verdana, Helvetica, sans-serif;
+  font-size: 11px;
+  margin: 5px;
+}
+
+p.hide {
+  color: silver;
+}
+
+a {
+  font-family: Verdana, Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: normal;
+  text-decoration: none;
+  color: red;
+}
+
+a:hover {
+  text-decoration: overline underline;
+}
+
+a.help {
+  font-weight: bold;
+  color: green;
+}
+
+h3 {
+  font-family: Verdana, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #000066;
+  margin: 5px;
+}
+
+font.line {
+  font-size: 16px;
+}
+
+td {
+  font-family: Verdana, Helvetica, sans-serif;
+  font-size: 11px;
+}
+
+td.head {
+  font-family: Verdana, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #000066;
+}
+
+form {
+  margin: 4px;
+}
+
+input {
+  font-family: Verdana, Helvetica, san-serif;
+  font-size: 11px;
+}
+
+input.button {
+  font-weight: bold;
+  border-style: solid;
+  border-width: 1px;
+}
+
+input.text {
+  border-style: solid;
+  border-width: 1px;
+  background-color: white;
+}
+
+textarea {
+  border-style: solid;
+  border-width: 1px;
+  font-family: Verdana, Helvetica, sans-serif;
+  font-size: 11px;
+}
+
+ul {
+  font-family: Verdana, Helvetica, sans-serif;
+  font-size: 11px;
+}
+
+input.submit {
+  border-style: solid;
+  border-width: 1px;
+  background-color: #CCCCCC;
+}
+
+<!-- These are for highlighting the selected segments in a text
+.normal {
+  background-color: transparent;
+}
+.marked {
+  font-weight: bold;
+  background-color: yellow;
+}
